@@ -1,6 +1,6 @@
 package a3.Server.model;
 
-public class Character {
+public class CharacterModel {
     private String Name;
     private String Status;
     private float Health;
@@ -8,9 +8,9 @@ public class Character {
     private int HealingCounter;
     private boolean ForfeitStatus;
 
-    public Character() {}
+    public CharacterModel() {}
 
-    public Character(String name, String status, float health, int defenseCounter, int healingCounter, boolean forfeitStatus) {
+    public CharacterModel(String name, String status, float health, int defenseCounter, int healingCounter, boolean forfeitStatus) {
         Name = name;
         Status = status;
         Health = health;
